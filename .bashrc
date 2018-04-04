@@ -158,7 +158,8 @@ function git_branch {
 
 function set_bash_prompt() {
 
-PS1="\[${Yellow}\]\u"; # username
+PS1="\n";
+PS1+="\[${Yellow}\]\u"; # username
 PS1+="\[${White}\] at ";
 PS1+="\[${Purple}\]\h"; # host
 PS1+="\[${White}\] in ";
